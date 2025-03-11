@@ -1,4 +1,4 @@
-<img align="center" height="100" src="https://kaushikghorai.github.io/kaushikghorai/img/brandname.png" />
+<img align="centre" height="100" src="https://kaushikghorai.github.io/kaushikghorai/img/brandname.png" />
 <img align="right" height="100" src="https://kaushikghorai.github.io/kaushikghorai/gif/emo.gif" style="position: fixed" />
 
 <br /><br /><br />
