@@ -68,7 +68,8 @@
       </style>
 
       <div class="container">
-        <h1>Hi there, my name is Kaushik Ghorai <span class="hi">👋</span></h1>
+        <h1>Hi there, <span class="hi">👋</span></h1>
+        <img height="500" src="https://kaushikghorai.github.io/kaushikghorai/img/brandname.png" />
       </div>
     </div>
   </foreignObject>
