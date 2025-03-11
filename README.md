@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Kaushik Ghorai</h2>
+<img align="centre" height="100" src="https://kaushikghorai.github.io/kaushikghorai/img/brandname.jpeg" style="position: fixed" />
 <img align="right" height="100" src="https://kaushikghorai.github.io/kaushikghorai/gif/emo.gif" style="position: fixed" />
 
 <br /><br /><br />
