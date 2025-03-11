@@ -1,5 +1,5 @@
-<div style="width: 100%;">
-  <img src="/svg/atom.svg" style="width: 100%;">
+<div style="width: 100;">
+  <img src="https://kaushikghorai.github.io/kaushikghorai/svg/atom.svg" style="width: 100;">
 </div>
 <img height="500" src="https://kaushikghorai.github.io/kaushikghorai/img/brandname.png" />
 <img align="right" height="100" src="https://kaushikghorai.github.io/kaushikghorai/gif/emo.gif" style="position: fixed" />
