@@ -1,76 +1,50 @@
-<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        @keyframes hi {
-          0% { transform: rotate(0.0deg) }
-          10% { transform: rotate(14.0deg) }
-          20% { transform: rotate(-8.0deg) }
-          30% { transform: rotate(14.0deg) }
-          40% { transform: rotate(-4.0deg) }
-          50% { transform: rotate(10.0deg) }
-          60% { transform: rotate(0.0deg) }
-          100% { transform: rotate(0.0deg) }
-        }
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="800" viewBox="0 0 600 800">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f9f9f9"/>
 
-        @keyframes gradient {
-          0% { background-position: 0% 50%; }
-          50% { background-position: 100% 50%; }
-          100% { background-position: 0% 50%; }
-        }
+  <!-- Title -->
+  <text x="50%" y="30" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">Welcome to My GitHub Profile!</text>
+  
+  <!-- About Me Section -->
+  <rect x="50" y="70" width="500" height="180" fill="#e2e8f0" rx="15" ry="15"/>
+  <text x="60" y="100" font-size="18" font-weight="bold" fill="#2d3748">👋 About Me</text>
+  <text x="60" y="130" font-size="14" fill="#4a5568">💻 Profession: Software Developer</text>
+  <text x="60" y="150" font-size="14" fill="#4a5568">🌍 Location: Remote</text>
+  <text x="60" y="170" font-size="14" fill="#4a5568">🔧 Technologies: React, Node.js, Python, Docker</text>
+  <text x="60" y="190" font-size="14" fill="#4a5568">📚 Currently Learning: AI & Machine Learning</text>
+  
+  <!-- Projects Section -->
+  <rect x="50" y="260" width="500" height="220" fill="#edf2f7" rx="15" ry="15"/>
+  <text x="60" y="290" font-size="18" font-weight="bold" fill="#2d3748">🚀 My Projects</text>
+  
+  <a xlink:href="https://github.com/your-username/project1" target="_blank">
+    <text x="60" y="320" font-size="14" fill="#3182ce">Project 1: AI Chatbot</text>
+  </a>
+  <a xlink:href="https://github.com/your-username/project2" target="_blank">
+    <text x="60" y="340" font-size="14" fill="#3182ce">Project 2: E-commerce Website</text>
+  </a>
+  <a xlink:href="https://github.com/your-username/project3" target="_blank">
+    <text x="60" y="360" font-size="14" fill="#3182ce">Project 3: Weather App</text>
+  </a>
+  
+  <!-- Stats Section -->
+  <rect x="50" y="500" width="500" height="150" fill="#f7fafc" rx="15" ry="15"/>
+  <text x="60" y="530" font-size="18" font-weight="bold" fill="#2d3748">📈 GitHub Stats</text>
+  
+  <text x="60" y="560" font-size="14" fill="#4a5568">Followers: 500+ | Repositories: 30+</text>
+  <text x="60" y="580" font-size="14" fill="#4a5568">Languages: JavaScript, Python, C++, Rust</text>
+  
+  <!-- Social Links Section -->
+  <rect x="50" y="670" width="500" height="100" fill="#edf2f7" rx="15" ry="15"/>
+  <text x="60" y="700" font-size="18" font-weight="bold" fill="#2d3748">🤝 Let’s Connect!</text>
+  
+  <a xlink:href="https://www.linkedin.com/in/your-profile" target="_blank">
+    <text x="60" y="730" font-size="14" fill="#3182ce">LinkedIn: @your-profile</text>
+  </a>
+  <a xlink:href="https://twitter.com/your-profile" target="_blank">
+    <text x="60" y="750" font-size="14" fill="#3182ce">Twitter: @your-profile</text>
+  </a>
 
-        .container {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          height: 300px;
-          width: 100%;
-          background: transparent;
-        }
-
-        h1 {
-          font-size: 32px;
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-          font-weight: bold;
-          background: linear-gradient(-45deg, #5452ee, #e73c7e, #23a6d5, #ffff);
-          background-size: 400% 400%;
-          animation: gradient 5s ease infinite;
-          -webkit-background-clip: text;
-          background-clip: text;
-          color: transparent;
-        }
-
-        .hi {
-          display: inline-block;
-          animation: hi 1.5s linear -0.5s infinite;
-          transform-origin: 70% 70%;
-        }
-
-        @media (prefers-color-scheme: light) {
-          h1 {
-            background: linear-gradient(-45deg, #F15BB5, #24b0ef, #4526f6, #f6f645);
-            background-size: 400% 400%;
-            animation: gradient 5s ease infinite;
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-          }
-        }
-
-        @media (prefers-reduced-motion) {
-          h1 {
-            animation: none;
-          }
-          .hi {
-            animation: none;
-          }
-        }
-      </style>
-
-      <div class="container">
-        <h1>Hi there, <span class="hi">👋</span></h1>
-        <img height="500" src="https://kaushikghorai.github.io/kaushikghorai/img/brandname.png" />
-      </div>
-    </div>
-  </foreignObject>
+  <!-- Footer -->
+  <text x="50%" y="790" text-anchor="middle" font-size="12" fill="#4a5568">Thank you for visiting my profile!</text>
 </svg>
