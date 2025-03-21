@@ -1,1 +1,3 @@
-![My GitHub Profile SVG](data:image/svg+xml;base64,PHN2ZyB4bWxucz... )
+<div style="width: 100;">
+   <img src="https://kaushikghorai.github.io/kaushikghorai/svg/atom.svg" style="width: 100;">
+ </div>
