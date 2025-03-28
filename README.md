@@ -20,21 +20,6 @@
   <br><br>
 
 
-<!-- Social Links Section -->
-<div align="left">
-  <p>Connect:</p>
-  <a href="www.instagram.com/thekaushikghorai" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="37" height="25" alt="instagram logo"  />@thekaushikghorai
-  </a><br>
-  <a href="https://www.linkedin.com/in/kaushik-ghorai-614894319/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="37" height="25" alt="linkedin logo"  />Kaushik Ghorai
-  </a><br>
-  <a href="https://www.hackerrank.com/profile/ghoraikaushik1" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/hackerrank/default.svg" width="37" height="25" alt="hackerrank logo"  />@kaushikghorai
-  </a><br>
-   <br>
-</div>
-
 
   
 <div align="left">
@@ -42,6 +27,22 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=kaushikghorai&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
+
+
+<!-- Social Links Section -->
+<div align="left">
+  <p>Connect:</p>
+  <a href="https://www.instagram.com/thekaushikghorai" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="37" height="25" alt="instagram logo"  />@thekaushikghorai
+  </a><br>
+  <a href="https://www.linkedin.com/in/kaushik-ghorai-614894319/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="37" height="25" alt="linkedin logo"  />Kaushik Ghorai
+  </a><br>
+  <a href="https://www.hackerrank.com/profile/kaushikghorai" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/hackerrank/default.svg" width="37" height="25" alt="hackerrank logo"  />@kaushikghorai
+  </a><br>
+   <br>
+</div>
 
 
 <!-- Footer -->
