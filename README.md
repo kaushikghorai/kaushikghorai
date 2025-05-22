@@ -1,4 +1,4 @@
-# ![Welcome](https://kaushikghorai.github.io/kaushikghorai/svg/readmesvg0.svg)
+# ![Welcome](https://kaushikghorai.github.io/kaushikghorai/svg/readmesvg0.svg)  <img align="right" height="100" src="https://kaushikghorai.github.io/kaushikghorai/gif/emo.gif" style="position: sticky; top: 0;" />
 ### 🚀 **Welcome to My GitHub Profile!**
 I’m a **1st Year BTech IT** student with a passion for **Artificial Intelligence** (AI) and exploring the world of technology. My goal is to become an **AI Engineer** and contribute to building intelligent systems that solve real-world problems. I’m actively learning, solving problems, and experimenting with various tech stacks to enhance my skills.
 
