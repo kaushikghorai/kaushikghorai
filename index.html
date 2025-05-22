@@ -1,76 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        background-color: #000000;
-    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Developer Profile</title>
+    <title>Kaushik Ghorai - GitHub Profile</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            line-height: 1.6;
+            color: #c9d1d9; /* Light grey for text */
+            background-color: #0d1117; /* Dark background similar to GitHub */
+            margin: 0; /* Remove default body margin */
+            padding: 0;
+            scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #161b22; /* Slightly lighter dark for content areas */
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        h1, h2, h3 {
+            color: #58a6ff; /* Blue for headings */
+            border-bottom: 1px solid #21262d; /* Subtle separator */
+            padding-bottom: 0.3em;
+            margin-top: 1em;
+            position: -webkit-sticky; /* For Safari */
+            position: sticky;
+            top: 0; /* Make headings stick to the top */
+            background-color: #161b22; /* Ensure background for sticky effect */
+            z-index: 10; /* Ensure it stays above other content */
+            padding-top: 10px; /* Add some padding when sticky */
+            margin-top: 0; /* Adjust margin when sticky */
+        }
+        /* Specific adjustment for the main welcome heading to ensure it's not sticky initially */
+        .main-header h1, .main-header h3 {
+            position: static; /* Make the initial welcome header not sticky */
+            border-bottom: none; /* Remove border for the welcome header if desired */
+            padding-bottom: 0;
+            margin-top: 0;
+        }
+
+        h1 img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        /* Styling for the aligned gif */
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .header-content h1 {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-top: 0;
+        }
+        .header-content img.right-gif {
+            /* This image is already styled inline with position: sticky; top: 0; in the markdown input.
+               However, CSS 'position: sticky' within a flow might not work as intended for a small img like that.
+               For true 'sticky' behavior, it needs to be in a context where it can stick to the viewport.
+               In this direct HTML conversion, the inline style is preserved.
+               For a more reliable sticky image, it might need to be a fixed element or
+               part of a sticky header wrapper.
+               Given the input, we are using the inline style.
+            */
+            position: sticky;
+            top: 0;
+            z-index: 100; /* Higher z-index for the floating GIF */
+        }
+
+        h2 {
+            font-size: 1.5em;
+        }
+        h3 {
+            font-size: 1.2em;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        ul {
+            list-style-type: none; /* Remove default bullet */
+            padding-left: 20px;
+        }
+        ul li:before {
+            content: "•"; /* Custom bullet */
+            color: #8b949e; /* Grey bullet color */
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        strong {
+            color: #e6edf3; /* Lighter color for strong text */
+        }
+        a {
+            color: #58a6ff; /* Blue for links */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #21262d; /* Darker line */
+            margin: 1.5em 0;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .contact-link {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        .contact-link img {
+            margin-right: 10px;
+        }
+        .badge-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        blockquote {
+            background-color: #1a1f26;
+            border-left: 4px solid #58a6ff;
+            margin: 0;
+            padding: 10px 15px;
+            color: #c9d1d9;
+        }
+        /* Style for the inline links in Table of Contents */
+        .toc-links {
+            display: flex; /* Use flexbox for horizontal alignment */
+            flex-wrap: wrap; /* Allow wrapping on smaller screens */
+            gap: 15px; /* Space between links */
+            justify-content: center; /* Center the links */
+            margin-bottom: 1em;
+        }
+        .toc-links a {
+            display: inline-block;
+            white-space: nowrap; /* Prevent wrapping within a link */
+        }
+    </style>
 </head>
-  <body>
+<body>
+    <div class="container">
+        <div class="header-content main-header">
+            <h1><img src="https://kaushikghorai.github.io/kaushikghorai/svg/readmesvg0.svg" alt="Welcome"></h1>
+            <img align="right" height="100" src="https://kaushikghorai.github.io/kaushikghorai/gif/emo.gif" style="position: sticky; top: 0;" class="right-gif" alt="Emoji GIF" />
+        </div>
+        <h3>🚀 <strong>Welcome to My GitHub Profile!</strong></h3>
+        <p>I’m a <strong>1st Year BTech IT</strong> student with a passion for <strong>Artificial Intelligence</strong> (AI) and exploring the world of technology. My goal is to become an <strong>AI Engineer</strong> and contribute to building intelligent systems that solve real-world problems. I’m actively learning, solving problems, and experimenting with various tech stacks to enhance my skills.</p>
 
-<h2 align="left">Hi 👋! My name is Kaushik Ghorai</h2>
-<img align="right" height="100" src="https://kaushikghorai.github.io/kaushikghorai/gif/emo.gif" style="position: fixed; padding-left: 80%" />
+        <hr>
 
-<br /><br /><br />
+        <h2>Table of Contents</h2>
+        <div class="toc-links">
+            <a href="#about-me">About Me</a>
+            <a href="#technologies-i-know">Technologies I Know</a>
+            <a href="#my-tech-journey">My Tech Journey</a>
+            <a href="#what-i-do">What I Do</a>
+            <a href="#my-github-stats">My Github Stats</a>
+            <a href="#connect-with-me">Connect With Me</a>
+        </div>
 
-<div align="left">
-  <p>Languages:</p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="c logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" alt="php logo"  />
-</div>
+        <hr>
 
+        <div id="about-me"></div>
+        <h2>👨‍💻 About Me</h2>
+        <blockquote>
+            <strong>🎓 Education</strong>: 1st Year BTech in Information Technology <br>
+            <strong>🌍 Location</strong>: Remote / India <br>
+            <strong>💻 Profession</strong>: Aspiring AI Engineer <br>
+            <strong>🧠 Interests</strong>: Artificial Intelligence, Machine Learning, Problem Solving, Web Development, Linux
+        </blockquote>
 
-<br /><br /><br />
+        <hr>
+        <div id="technologies-i-know"></div>
 
+        <h2>🔧 Technologies I Know:</h2>
+        <ul>
+            <li><strong>Languages</strong>: C (Certified), Python, SQL, HTML, CSS, JavaScript, PHP</li>
+            <li><strong>Databases</strong>: MySQL, MariaDB</li>
+            <li><strong>Linux</strong>: Basic Linux commands and operations</li>
+        </ul>
 
-<div align="left">
-  <p>Connect:</p>
-  <a href="www.instagram.com/thekaushikghorai" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="47" height="35" alt="instagram logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/kaushik-ghorai-614894319/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="47" height="35" alt="linkedin logo"  />
-  </a>
-  <a href="https://www.hackerrank.com/profile/ghoraikaushik1" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/hackerrank/default.svg" width="47" height="35" alt="hackerrank logo"  />
-  </a>
-</div>
+        <hr>
+        <div id="my-tech-journey"></div>
 
+        <h2>🚀 My Tech Journey</h2>
+        <p>I’m passionate about <strong>AI</strong> and always looking for new technologies to learn. I’ve been exploring <strong>data structures</strong>, <strong>algorithms</strong>, and <strong>machine learning models</strong>. Here's a glimpse of my tech journey so far:</p>
+        <ul>
+            <li><strong>C</strong> (with certification)</li>
+            <li><strong>Python</strong>, <strong>SQL</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>PHP</strong> (Self-learned, no certification)</li>
+            <li><strong>Linux</strong>: Basic knowledge of terminal commands and system operations</li>
+            <li><strong>Problem Solving</strong>: Actively solving coding challenges on <strong>HackerRank</strong> and <strong>LeetCode</strong></li>
+        </ul>
 
-<br /><br /><br />
+        <h3>Focus Areas:</h3>
+        <ul>
+            <li><strong>AI/ML</strong>: Building machine learning models and AI solutions using <strong>Python</strong> libraries like <strong>TensorFlow</strong>, <strong>Keras</strong>, and <strong>scikit-learn</strong>.</li>
+            <li><strong>Web Development</strong>: Building web applications with <strong>HTML</strong>, <strong>CSS</strong>, <strong>JS</strong>, and <strong>PHP</strong>.</li>
+            <li><strong>Linux</strong>: Exploring Linux system administration and command-line operations.</li>
+        </ul>
 
+        <hr>
+        <div id="what-i-do"></div>
 
+        <h2>💡 What I Do</h2>
+        <ul>
+            <li><strong>Problem Solving</strong>: I enjoy solving problems on <strong>HackerRank</strong> and <strong>LeetCode</strong> to improve my algorithm and data structure skills.</li>
+            <li><strong>AI & Machine Learning</strong>: I’m working on AI projects and experimenting with <strong>Python</strong> for developing intelligent models.</li>
+            <li><strong>Web Development</strong>: Creating dynamic, interactive web applications using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>PHP</strong>.</li>
+            <li><strong>Linux</strong>: Exploring basic Linux commands and shell scripting for a deeper understanding of system-level programming.</li>
+        </ul>
 
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=kaushikghorai&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=false&disable_animations=false&theme=dark&locale=en&hide_border=true" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=kaushikghorai&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=false" height="150" alt="languages graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=kaushikghorai&theme=matrix&no-frame=false&no-bg=true" height="150" alt="trophy graph"  />
-</div>
+        <hr>
+        <div id="my-github-stats"></div>
 
+        <h2>🏆 My GitHub Stats</h2>
+        <div class="image-container">
+            <img src="https://github-readme-stats.vercel.app/api?username=kaushikghorai&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&count_private=false&disable_animations=true&theme=dark&locale=en&hide_border=true" alt="GitHub Stats">
+        </div>
+        <div class="image-container">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs?username=kaushikghorai&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=true" alt="Top Languages">
+        </div>
 
+        <hr>
+        <div id="connect-with-me"></div>
 
+        <h2>🌐 Connect with Me</h2>
+        <p>Let's collaborate, share ideas, and explore exciting tech innovations! You can connect with me through the following platforms:</p>
 
+        <div class="contact-links">
+            <div class="contact-link">
+                <a href="https://www.instagram.com/thekaushikghorai" target="_blank">
+                    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="37" height="25" alt="instagram logo" />@thekaushikghorai
+                </a>
+            </div>
+            <p>🚀 Unlock your coding potential! Follow me on <b>Instagram</b> to code smarter together! 💻✨</p>
 
+            <div class="contact-link">
+                <a href="https://www.linkedin.com/in/kaushik-ghorai-614894319/" target="_blank">
+                    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="37" height="25" alt="linkedin logo" />Kaushik Ghorai
+                </a>
+            </div>
+            <div class="contact-link">
+                <a href="https://www.hackerrank.com/profile/kaushikghorai" target="_blank">
+                    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/hackerrank/default.svg" width="37" height="25" alt="hackerrank logo" />@kaushikghorai
+                </a>
+            </div>
+        </div>
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=kaushikghorai.kaushikghorai&"  />
-</div>
+        <hr>
 
+        <h2>⚡ Thanks for Visiting My Profile!</h2>
+        <p>Feel free to explore my repositories, check out my projects, and let's build something amazing together!</p>
 
-
-  </body>
+        <div class="badge-container">
+            <img src="https://visitor-badge.laobi.icu/badge?page_id=kaushikghorai.kaushikghorai" alt="Visitor Badge">
+        </div>
+    </div>
+</body>
 </html>
