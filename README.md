@@ -1,13 +1,16 @@
 # ![Welcome](https://kaushikghorai.github.io/kaushikghorai/svg/readmesvg0.svg)  <img align="right" height="100" src="https://kaushikghorai.github.io/kaushikghorai/gif/emo.gif" style="position: sticky; top: 0;" />
-### 🚀 **Welcome to My GitHub Profile!**
-I’m a **1st Year BTech IT** student with a passion for **Artificial Intelligence** (AI) and exploring the world of technology. My goal is to become an **AI Engineer** and contribute to building intelligent systems that solve real-world problems. I’m actively learning, solving problems, and experimenting with various tech stacks to enhance my skills.
 
----
 
 ## Table of Contents
   [About Me](#about-me) &nbsp;&nbsp; [Technologies I Know](#technologies-i-know) &nbsp;&nbsp; [My Tech Journey](#my-tech-journey) &nbsp;&nbsp; [What I Do](#what-i-do) &nbsp;&nbsp; [My Github Stats](#my-github-stats) &nbsp;&nbsp; [Connect With Me](#connect-with-me)
 
 ---
+
+### 🚀 **Welcome to My GitHub Profile!**
+I’m a **1st Year BTech IT** student with a passion for **Artificial Intelligence** (AI) and exploring the world of technology. My goal is to become an **AI Engineer** and contribute to building intelligent systems that solve real-world problems. I’m actively learning, solving problems, and experimenting with various tech stacks to enhance my skills.
+
+---
+
 
 <div id="about-me"></div>
 
