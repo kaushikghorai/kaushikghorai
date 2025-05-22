@@ -15,9 +15,8 @@ I’m a **1st Year BTech IT** student with a passion for **Artificial Intelligen
 
 ## 🔧 Technologies I Know:
 
-   - **Languages**: C (Certified), Python, SQL, HTML, CSS, JavaScript, PHP  
-   - **Frameworks & Tools**: Flask, Django, Git, Docker, Jupyter Notebook  
-   - **Databases**: MySQL, PostgreSQL  
+   - **Languages**: C (Certified), Python, SQL, HTML, CSS, JavaScript, PHP 
+   - **Databases**: MySQL, MariaDB 
    - **Linux**: Basic Linux commands and operations
 
 ---
@@ -62,10 +61,10 @@ Let's collaborate, share ideas, and explore exciting tech innovations! You can c
 <div align="left">
   <a href="https://www.instagram.com/thekaushikghorai" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="37" height="25" alt="instagram logo"  />@thekaushikghorai
-  </a><br></div>
-   🚀 Follow me on **Instagram** for exclusive tech insights and coding tips!  
+  </a><br></div><br>
+   🚀 Unlock your coding potential! Follow me on <b>Instagram</b> to code smarter together! 💻✨
   
-   <div>
+   <br><div>
   <a href="https://www.linkedin.com/in/kaushik-ghorai-614894319/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="37" height="25" alt="linkedin logo"  />Kaushik Ghorai
   </a><br>
