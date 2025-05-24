@@ -1,4 +1,4 @@
-# ![Welcome](https://kaushikghorai.github.io/kaushikghorai/svg/readmesvg0.svg)  <img align="right" height="100" src="https://kaushikghorai.github.io/kaushikghorai/gif/emo.gif" style="position: sticky; top: 0;" onclick="window.location.href='https://kaushikghorai.github.io/kaushikghorai';"/>
+# ![Welcome](https://kaushikghorai.github.io/kaushikghorai/svg/readmesvg0.svg)  [<img align="right" height="100" src="https://kaushikghorai.github.io/kaushikghorai/gif/emo.gif" style="position: sticky; top: 0;" />](https://kaushikghorai.github.io/kaushikghorai)
 
 
 ## Table of Contents
