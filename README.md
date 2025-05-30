@@ -80,7 +80,7 @@ Let's collaborate, share ideas, and explore exciting tech innovations! You can c
    🚀 Unlock your coding potential! Follow me on <b>Instagram</b> to code smarter together! 💻✨
   
    <br><div>
-  <a href="https://www.linkedin.com/in/kaushik-ghorai-614894319/" target="_blank">
+  <a href="https://www.linkedin.com/in/kaushikghorai/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="37" height="25" alt="linkedin logo"  />Kaushik Ghorai
   </a><br>
   <a href="https://www.hackerrank.com/profile/kaushikghorai" target="_blank">
