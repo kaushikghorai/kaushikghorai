@@ -7,7 +7,7 @@
 ---
 
 ### 🚀 **Welcome to My GitHub Profile!**
-I’m a **1st Year BTech IT** student with a passion for **Artificial Intelligence** (AI) and exploring the world of technology. My goal is to become an **AI Engineer** and contribute to building intelligent systems that solve real-world problems. I’m actively learning, solving problems, and experimenting with various tech stacks to enhance my skills.
+I’m a **2nd Year BTech IT** student with a passion for **Artificial Intelligence** (AI) and exploring the world of technology. My goal is to become an **AI Engineer** and contribute to building intelligent systems that solve real-world problems. I’m actively learning, solving problems, and experimenting with various tech stacks to enhance my skills.
 
 ---
 
@@ -16,8 +16,8 @@ I’m a **1st Year BTech IT** student with a passion for **Artificial Intelligen
 
 ## 👨‍💻 **About Me**
 
-> **🎓 Education**: 1st Year BTech in Information Technology  
-> **🌍 Location**: Remote / India  
+> **🎓 Education**: 2nd Year BTech in Information Technology  
+> **🌍 Location**: India  
 > **💻 Profession**: Aspiring AI Engineer  
 > **🧠 Interests**: Artificial Intelligence, Machine Learning, Problem Solving, Web Development, Linux  
 
@@ -26,7 +26,7 @@ I’m a **1st Year BTech IT** student with a passion for **Artificial Intelligen
 
 ## 🔧 Technologies I Know:
 
-   - **Languages**: C (Certified), Python, SQL, HTML, CSS, JavaScript, PHP 
+   - **Languages**: C (Certified), JAVA, Python, SQL, HTML, CSS, JavaScript, PHP 
    - **Databases**: MySQL, MariaDB 
    - **Linux**: Basic Linux commands and operations
 
